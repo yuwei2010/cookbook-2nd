@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 > We can enable high-resolution matplotlib figures on Retina display systems with the following commands:
 >
 > ```python
-> from IPython.display import set_matplotlib_formats
+> from matplotlib_inline.backend_inline import set_matplotlib_formats
 > set_matplotlib_formats('retina')
 > ```
 
